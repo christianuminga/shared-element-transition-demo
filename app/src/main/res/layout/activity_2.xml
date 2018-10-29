@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    tools:context=".Activity2">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:transitionName="example_transition"/>
+
+
+
+    <TextView
+        android:id="@+id/txtView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at magna gravida, pellentesque felis condimentum, blandit diam. Aenean suscipit est sit amet cursus convallis. In volutpat eros sed volutpat suscipit. Donec iaculis at nisi ac vehicula. Sed luctus dolor mattis eros vulputate hendrerit. Fusce eu sapien a mi viverra dictum. Sed ante nibh, gravida consequat tellus eu, malesuada vehicula lacus. Donec gravida placerat felis, nec rhoncus arcu fringilla quis. Mauris vehicula nisl et turpis consequat commodo ac tincidunt ipsum. Donec non mi quis neque vulputate laoreet bibendum a sapien. Nunc efficitur eget velit a fermentum. Sed a aliquet ex." />
+
+</LinearLayout>
